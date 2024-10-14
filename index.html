@@ -1,0 +1,124 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Simply Recipes || Baker</title>
+      <!-- favicon -->
+      <link rel="shortcut icon" href="./assets/favicon1.ico" type="image/x-icon" />
+      <!-- normalize -->
+      <link rel="stylesheet" href="./css/normalize.css" />
+      <!-- font-awesome -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      />
+      <!-- main css -->
+      <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+      <!-- nav -->
+      <div class="navbar">
+        <div class="nav-center">
+          <!-- header -->
+          <div class="nav-header">
+            <a href="index.html" class="nav-logo">
+              <img src="../starter/assets/logo2.png" alt="simply recipes">
+            </a>
+            <button type="button" class="btn nav-btn">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="tags.html" class="nav-link">Tags</a>
+            <a href="recipes.html" class="nav-link">Recipes</a>
+            <div class="nav-link contact-link">
+              <a href="contact.html" class="btn">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- nav-end -->
+      <!-- main -->
+      <main class="page">
+        <!-- Header -->
+        <div class="hero">
+          <div class="hero-container">
+            <div class="hero-text">
+              <h1>Delightful Bakery</h1>
+              <h4>Freshely Baked Goodness Everyday</h4>
+            </div>
+          </div>
+        </div>
+        <!-- end of header -->
+
+        <!-- recipes container -->
+        <section class="recipes-container">
+          <!-- tag container -->
+          <div class="tags-container">
+            <h4>Recipes</h4>
+            <div class="tags-list">
+              <a href="tag-template.html">Cakes (5)</a>
+              <a href="tag-template.html">Pasteries (3)</a>
+              <a href="tag-template.html">Bread (4)</a>
+              <a href="tag-template.html">cookies (7)</a>
+            </div>
+          </div>
+          <!-- end of tag container -->
+          <!-- recipes list -->
+          <div class="recipes-list">
+            <!-- single bakery item -->
+            <a href="single-recipe1.html" class="recipe">
+              <img src="./assets/bakery/chocolate-cake.jpg" class="img recipe-img" alt="chocolate cake"/>
+              <h5>Chocolate Cake</h5>
+              <p>Prep: 30min | Bake: 1hr</p>
+            </a>
+            <!-- end of single bakery item -->
+            <!-- single bakery item -->
+            <a href="single-recipe2.html" class="recipe">
+              <img src="./assets/bakery/croissant.jpg" class="img recipe-img" alt="croissant"/>
+              <h5>Croissant</h5>
+              <p>Prep: 2hr | Bake: 20min</p>
+            </a>
+            <!-- end of single bakery item -->
+            <!-- single bakery item -->
+            <a href="single-recipe3.html" class="recipe">
+              <img src="./assets/bakery/blueberry-muffin.jpg" class="img recipe-img" alt="blueberry muffin"/>
+              <h5>Blueberry Muffin</h5>
+              <p>Prep: 20min | Bake: 25min</p>
+            </a>
+            <!-- end of single bakery item -->
+            <!-- single bakery item -->
+            <a href="single-recipe4.html" class="recipe">
+              <img src="./assets/bakery/chocolate-chip-cookies.jpg" class="img recipe-img" alt="chocolate chip cookies"/>
+              <h5>Chocolate Chip Cookies</h5>
+              <p>Prep: 15min | Bake: 12min</p>
+            </a>
+            <!-- end of single bakery item -->
+          </div>
+          <!-- end of recipe list -->
+        </section>
+        <!-- end of recipe container -->
+      </main>
+      <!-- main-end -->
+      <!-- footer -->
+      <footer class="page-footer">
+        <p class="page-foot">&copy; <span id="date"></span>
+          <span class="footer-logo">SimplyRecipes</span> Built by
+          <a href="https://github.com/harrshaprakhyat/">Harrsha</a><br>
+        </p>
+        <ul>
+          <li>✔ Updated icon for better visibility</li>
+          <li>✔ Improved images for recipes</li>
+          <li>✔ Enhanced content for user engagement</li>
+          <li>✔ Added new font-family for aesthetics</li>
+          <li>✔ Introduced extra pages for new recipes</li>
+        </ul>
+      </footer>
+      <script src="./js/app.js"></script>
+    </body>
+  </html>
